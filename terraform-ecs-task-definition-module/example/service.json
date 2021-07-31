@@ -1,0 +1,15 @@
+[
+    {
+      "name": "first",
+      "image": "service-first.dkr.ecr.us-east-1.amazonaws.com/teste:1.0.0",
+      "cpu": 10,
+      "memory": 512,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
